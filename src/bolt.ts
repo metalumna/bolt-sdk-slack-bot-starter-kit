@@ -4,8 +4,8 @@ import { App } from "@slack/bolt";
 // Instantiate your Bolt app with your tokens and signing secrets
 export const boltApp = new App({
   signingSecret: config.SLACK_SIGNING_SECRET,
-  token: config.SLACK_BOT_TOKEN,
   appToken: config.SLACK_APP_TOKEN,
+  token: config.SLACK_BOT_TOKEN,
   socketMode: true, // Enable Socket mode for real-time events
 });
 
