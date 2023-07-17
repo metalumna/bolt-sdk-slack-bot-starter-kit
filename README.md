@@ -37,7 +37,7 @@ Welcome to the ultimate Slack Bot starter kit, powered by TypeScript and Bolt SD
    npm install
    ```
 
-4. Start the bot by filling out the necessary configurations and running:
+4. Start the bot by filling out the necessary configurations (see below) and running:
 
    ```bash
    npm run dev
@@ -45,11 +45,15 @@ Welcome to the ultimate Slack Bot starter kit, powered by TypeScript and Bolt SD
 
 ## 🔧 Configuration
 
-
 1. [Create a new Slack App](https://api.slack.com/apps?new_granular_bot_app=1) or [use an existing one](https://api.slack.com/apps)
 1. Go to the "Basic Information" section to find your `SLACK_SIGNING_SECRET`.
-1. `SLACK_BOT_TOKEN` and `SLACK_APP_TOKEN` can be found under the "OAuth & Permissions" section after installing the app to your workspace.
-1. For the `SLACK_PORT`, it can remain as '8080' unless this port is already in use on your system.
+2. `SLACK_APP_TOKEN` can be found when enabling "Socket Mode".
+3. `SLACK_BOT_TOKEN` can be found under the "Install App" page AFTER adding "OAuth Permissions" and installing the app to your workspace.
+   - OAuth Permission: `chat:write`
+   - Event Subcription: `message.im`
+4. For the `SLACK_PORT`, it can remain as '8080' unless this port is already in use on your system.
+
+A comprehensive guide, including a dive into the code is on the MetaLumna blog: [Building a Bolt Slack Bot: A Straightforward Starter-Kit Guide](https://metalumna.com/articles/building-a-bolt-slack-bot-a-straightforward-starter-kit-guide)
 
 ## 🔎 Exploring the Code
 
