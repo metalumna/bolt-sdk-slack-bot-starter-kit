@@ -22,13 +22,13 @@ Welcome to the ultimate Slack Bot starter kit, powered by TypeScript and Bolt SD
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/metalumna/typescript-bolt-sdk-slack-bot-starter-kit.git
+   git clone https://github.com/metalumna/bolt-sdk-slack-bot-starter-kit.git
    ```
 
 2. Move into the project directory:
 
    ```bash
-   cd typescript-bolt-sdk-slack-bot-starter-kit
+   cd bolt-sdk-slack-bot-starter-kit
    ```
 
 3. Install the dependencies:
