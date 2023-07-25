@@ -2,7 +2,6 @@ import "dotenv/config";
 
 class EnvVars {
   // Define required environment variables with dummy or default values
-  EXPRESS_PORT = 8081; // Default PORT for Express Server
   SLACK_SIGNING_SECRET = "";
   SLACK_APP_TOKEN = "";
   SLACK_BOT_TOKEN = "";
