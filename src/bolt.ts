@@ -13,6 +13,8 @@ export const boltApp = new App({
 boltApp.message(async ({ message, say }) => {
   // If the subtype is undefined or bot_message (eg a message in the bot channel), the bot will respond
   if (message.subtype === undefined || message.subtype === "bot_message") {
+    // Console log the incoming message
+    console.log(`Incoming message: ${message.text}`);
     // Reply to the message with an echo
     await say(`Echo: ${message.text}`);
   }
