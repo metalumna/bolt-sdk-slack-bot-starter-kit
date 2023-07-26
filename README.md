@@ -1,9 +1,9 @@
 ![Status](https://img.shields.io/badge/status-active-success.svg)
-[![GitHub Issues](https://img.shields.io/github/issues/metalumna/typescript-bolt-sdk-slack-bot-starter-kit.svg)](https://github.com/metalumna/typescript-bolt-sdk-slack-bot-starter-kit/issues)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/metalumna/typescript-bolt-sdk-slack-bot-starter-kit.svg)
+[![GitHub Issues](https://img.shields.io/github/issues/metalumna/bolt-sdk-slack-bot-starter-kit.svg)](https://github.com/metalumna/bolt-sdk-slack-bot-starter-kit/issues)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/metalumna/bolt-sdk-slack-bot-starter-kit.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-![Last Commit](https://img.shields.io/github/last-commit/metalumna/typescript-bolt-sdk-slack-bot-starter-kit)
-![Stars](https://img.shields.io/github/stars/metalumna/typescript-bolt-sdk-slack-bot-starter-kit?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/metalumna/bolt-sdk-slack-bot-starter-kit)
+![Stars](https://img.shields.io/github/stars/metalumna/bolt-sdk-slack-bot-starter-kit?style=social)
 
 # Slack Bot Starter-Kit 🤖
 
